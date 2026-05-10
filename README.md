@@ -1,2 +1,4 @@
 # GTAIV Inventory Mod
-source code + installation for my GTA IV Inventory mod
+An advanced GTA IV mod featuring food and inventory management system with survival mechanics.
+
+## Features
