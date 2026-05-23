@@ -11,24 +11,21 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 ## 🛠️ Installation Guide
 
 ### Requirements
-- GTA4, GTA: Chinatown Wars, GTA: Ballad of Gay Tony, or GTA: The Ballad of Gay Tony
-- GTA.NET Framework or similar
-- Visual Studio or C# compiler
+- GTA 4 (only tested on steam complete edition, but it should work on any version of GTA IV)
+- GTA 4 .Net ScriptHook
 
 ### Installation Steps
 
-1. **Clone or download the mod files**
-   ```bash
-   git clone [repository-link]
-   cd food
-   ```
+1. **Install GTA 4 .Net ScriptHook**
+   - Download + installation link: https://hazardx.com/files/gta4_net_scripthook-83
 
-2. **Copy files to the scripts folder**
-   - Copy `FoodScript.cs` to the game's `scripts\` directory
-   - Copy data files (`FoodScriptData.ini`, `FoodScriptDataGta4.ini`, etc.) to the `scripts\` directory
+2. **Download and extract GTAIV_InventoryMod.rar**
+   - Download GTAIV_InventoryMod.rar from release
+   - Extract the file using winrar
 
-3. **Configure data files**
-   - Edit `.ini` files to customize items, prices, and crafting recipes as desired
+3. **Put extracted folder into your GTA IV directory**
+   - Right click on extracted folder, choose copy/cut
+   - Go to your GTA IV, right click and choose paste
 
 4. **Launch the game**
    - Run the game and the mod will load automatically
@@ -41,49 +38,50 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 ### 1. **Comprehensive Inventory System**
    - Open inventory with `I` key
    - Display all items organized by category
-   - Support for 4 pages of consumables and 3 pages of valuables
    - Upgrade inventory capacity with different backpack types (10 → 100+ items)
 
 ### 2. **Item Categories**
-   - **Consumables**: Drinks, sweets, meals, soups, etc.
-   - **Medkits**: Health restoration items and medical kits
+   - **Consumables**: Drinks, sweets, meals, soups, etc. to restore health core
+   - **Liquors/Cigarettes**: Beer, rum... to restore deadeye core, but decrease health core.
+   - **Medkits**: Health restoration items
    - **Armor**: Body armor to increase character protection
    - **Valuables**: Gold, jewelry, watches, phones, etc.
-   - **Backpacks**: Upgrade inventory capacity (Magic Backpack with 100 items)
+   - **Backpacks**: Upgrade inventory capacity
 
-### 3. **Looting & Robbery System**
+### 3. **Looting System**
    - Loot items from dead NPC bodies
-   - Rob frightened NPCs (when aiming)
-   - Different loot rates based on NPC type (Cops, Civilians, Paramedics, etc.)
-   - Unlock valuable items when backpack is large enough
+   - Different loot rates for all item category based on NPC type (Cops, Civilians, Paramedics, etc.)
 
 ### 4. **Shop System**
    - Buy all types of items from the shop
    - Checkout with shopping cart and shipping fees
-   - Sell individual valuables at market prices
+   - Sell valuable items with two options:
+      + Sell items with a fee with no problem
+      + Sell without fee, the heat will increase (heat is the chance you will get 4 stars wanted level, heat will reset after 24 hours in game after the last time the heat is increased)
    - Sell scrap materials
+   - Be noticed that selling or buying items will trigger in game autosave to save your money amount 
 
 ### 5. **Crafting/Combination System**
    - Combine items to create special food combos
    - Craft upgraded backpacks from materials
-   - Crafting recipes stored in `combineDatabase`
    - Display ingredient requirements and product effects
 
 ### 6. **Ability Cores System**
-   - **Health Core** (0-100): Track overall health status
-   - **Deadeye Core** (0-100): Aiming ability, slowly regenerates
-   - **Gold Core** (special): Activated when using special items, prevents negative healing effects
+   - **Health Core** (0-100): Health regeneration overtime ability, divided into status, you get more health regeneration with higher status
+   - **Deadeye Core** (0-100): Bullet time
+   - **Gold Core** (special): Activated only when use combine consumable combos, prevent health core's drain
+   - Penalty: Upon your character's death, both Health core and Deadeye core is decreased by 50
 
 ### 7. **Item Usage**
    - Each item has unique animations
    - Automatically restores Health/Armor/Deadeye
    - Support for complex animations with 3D item attachments
-   - Cancel animations by attacking or jumping
+   - Cancel item use by attacking or jumping
 
 ### 8. **Auto-Save System**
    - Inventory data automatically saved to `.ini` files
    - Data reloads on game startup
-   - Support for multiple game mode saves
+   - Seperate save file for Gta 4, TBoGT, TLAD
 
 ### 9. **User Interface**
    - Simple text-based menu, easy to navigate
@@ -91,14 +89,9 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
    - Item status notifications (success, error, warning)
    - Color-coded system for categories
 
-### 10. **Time Management & Special Features**
-   - Track playtime for core recovery calculations
-   - Support for Gold Core with limited duration
-   - Manage looted NPC list to prevent duplicate looting
-
 ---
 
-## 📋 Default Keybinds
+## 📋 Inventory Keybinds
 
 | Key | Function |
 |-----|----------|
