@@ -17,7 +17,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 ### Installation Steps
 
 1. **Install GTA 4 .Net ScriptHook**
-   - Download + installation link: https://hazardx.com/files/gta4_net_scripthook-83
+   - Download + installation link (this is not my work): https://hazardx.com/files/gta4_net_scripthook-83
 
 2. **Download and extract GTAIV_InventoryMod.rar**
    - Download GTAIV_InventoryMod.rar from release
@@ -37,7 +37,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ### 1. **Comprehensive Inventory System**
    - Display all items organized by category
-   - Upgrade inventory capacity with different backpack types (10 → 100+ items)
+   - Upgrade inventory capacity with different backpack types (10 → 100 items)
 
 ### 2. **Item Categories**
    - **Consumables**: Drinks, sweets, meals, soups, etc. to restore health core
@@ -55,11 +55,8 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 ### 4. **Shop System**
    - Buy all types of items from the shop
    - Checkout with shopping cart and shipping fees
-   - Sell valuable items with two options:
-      + Sell items with a fee with no problem
-      + Sell without fee, the heat will increase (heat is the chance you will get 4 stars wanted level, heat will reset after 24 hours in game after the last time the heat is increased)
+   - Sell valuable items to earn more money
    - Sell scrap materials
-   - Be noticed that selling or buying items will trigger in game autosave to save your money amount 
 
 ### 5. **Crafting/Combination System**
    - Combine items to create special food combos
@@ -96,22 +93,27 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
  **Action keys**
 | Key | Function |
 |-----|----------|
-| `I` | Toggle inventory menu |
-| `B` | Toggle shop menu |
 | `X` | Loot NPC/take holding item |
 | `H` | Hide/show health core and deadeye core bar|
 | `Middle mouse button` | Activate deadeye |
 | `L` | Search for lootable world items/Loot world items |
 
- **Inventory keys**
+ **Inventory menu keys**
 | Key | Function |
 |-----|----------|
+| `I` | Toggle inventory menu |
 | `1-9` | Navigate menu options/Use items (can use both numpad and normal number keys)  |
 | `0` | Go back |
 | `Left/Right arrow key` | Previous/next item page|
-| `H` | Hide/show health core and deadeye core bar|
-| `Middle mouse button` | Activate deadeye |
-| `L` | Search for lootable world items/Loot world items |
+
+ **Shop menu keys**
+| Key | Function |
+|-----|----------|
+| `B` | Toggle shop menu |
+| `1-9` | Add/Remove items |
+| `0` | Go back |
+| `Backspace` | Toggle add/remove mode or sell valuables safely |
+| `Enter` | Press at the main menu to confirm order | 
 
 ---
 
