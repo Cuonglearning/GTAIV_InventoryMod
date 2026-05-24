@@ -36,7 +36,6 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 ## Features
 
 ### 1. **Comprehensive Inventory System**
-   - Open inventory with `I` key
    - Display all items organized by category
    - Upgrade inventory capacity with different backpack types (10 → 100+ items)
 
