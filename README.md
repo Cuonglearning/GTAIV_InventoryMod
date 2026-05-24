@@ -93,14 +93,25 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ## Keybinds
 
+ **Action keys**
 | Key | Function |
 |-----|----------|
-| `I` | Open/Close inventory |
-| `0` / `NumPad0` | Back to previous menu |
-| `1-9` | Select item in menu |
-| `Left/Right` | Switch pages (valuables & consumables) |
-| `Enter` | Confirm order (shop) |
-| `Back` | Return to category |
+| `I` | Toggle inventory menu |
+| `B` | Toggle shop menu |
+| `X` | Loot NPC/take holding item |
+| `H` | Hide/show health core and deadeye core bar|
+| `Middle mouse button` | Activate deadeye |
+| `L` | Search for lootable world items/Loot world items |
+
+ **Inventory keys**
+| Key | Function |
+|-----|----------|
+| `1-9` | Navigate menu options/Use items (can use both numpad and normal number keys)  |
+| `0` | Go back |
+| `Left/Right arrow key` | Previous/next item page|
+| `H` | Hide/show health core and deadeye core bar|
+| `Middle mouse button` | Activate deadeye |
+| `L` | Search for lootable world items/Loot world items |
 
 ---
 
