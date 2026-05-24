@@ -1,6 +1,6 @@
 # FoodScript - Food System & Inventory Mod
 
-## 📝 Description
+## Description
 
 **FoodScript** is a comprehensive mod for GTA (GTA4/TLAD/TBOGT) that provides a complete inventory management system focused on storing and using various food items, valuables, and equipment. The mod includes an NPC looting system, a full-featured shop, crafting/combination mechanics, and management of different ability cores (Health Core, Deadeye Core, Gold Core).
 
@@ -8,7 +8,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ---
 
-## 🛠️ Installation Guide
+## Installation Guide
 
 ### Requirements
 - GTA 4 (only tested on steam complete edition, but it should work on any version of GTA IV)
@@ -33,7 +33,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ---
 
-## ⭐ Features
+## Features
 
 ### 1. **Comprehensive Inventory System**
    - Open inventory with `I` key
@@ -51,6 +51,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 ### 3. **Looting System**
    - Loot items from dead NPC bodies
    - Different loot rates for all item category based on NPC type (Cops, Civilians, Paramedics, etc.)
+   - Loot pickable items and world items
 
 ### 4. **Shop System**
    - Buy all types of items from the shop
@@ -91,7 +92,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ---
 
-## 📋 Inventory Keybinds
+## Keybinds
 
 | Key | Function |
 |-----|----------|
