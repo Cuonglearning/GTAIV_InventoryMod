@@ -102,7 +102,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 | Key | Function |
 |-----|----------|
 | `I` | Toggle inventory menu |
-| `1-9` | Navigate menu options/Use items (can use both numpad and normal number keys)  |
+| `1-9` | Navigate menu options/Use items |
 | `0` | Go back |
 | `Left/Right arrow key` | Previous/next item page|
 
@@ -123,10 +123,10 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 Press `I` to toggle the inventory menu. The menu will pause the game.
 
 #### Using Items
-1. Open inventory (`I`)
-2. Select a category (1-7 from main menu)
-3. Select an item (1-9)
-4. Confirm usage - animation will play automatically
+1. Open inventory 
+2. Navigate the menu using numberic keys
+3. Select any item
+4. Animations will start. There will be announcement when you're done using item, several actions like shooting, jumping will cancel item use
 
 ### Looting from NPCs
 - Approach a dead NPC
