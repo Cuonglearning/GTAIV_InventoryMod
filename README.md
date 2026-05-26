@@ -117,12 +117,12 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ---
 
-## 🎮 Usage Guide
+## Usage Guide
 
-### Opening Inventory
+### Inventory
 Press `I` to toggle the inventory menu. The menu will pause the game.
 
-### Using Items
+#### Using Items
 1. Open inventory (`I`)
 2. Select a category (1-7 from main menu)
 3. Select an item (1-9)
