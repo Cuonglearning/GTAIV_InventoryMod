@@ -126,8 +126,7 @@ Press `I` to toggle the inventory menu. The menu will pause the game.
 1. Open inventory 
 2. Navigate the menu using numberic keys
 3. Select any item
-4. Animations will start. There will be announcement when you're done using item, several actions like shooting, jumping will cancel item use
-
+4. Animation will start. A notification message will appear once you finish using the item. Before the notification is displayed, certain actions such as jumping, shooting, or aiming will cancel the item usage.
 ### Looting from NPCs
 - Approach a dead NPC
 - Press `E` or corresponding button to loot
