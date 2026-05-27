@@ -127,6 +127,11 @@ Press `I` to toggle the inventory menu. The menu will pause the game.
 2. Navigate the menu using numberic keys
 3. Select any item
 4. Animation will start. A notification message will appear once you finish using the item. Before the notification is displayed, certain actions such as jumping, shooting, or aiming will cancel the item usage.
+   
+#### Combine items
+Can be accessed through inventory menu. Craftable recipes will be highlighted.
+- About consumables combine: Do a consumables combo to grant big health core, when any combo is chosen, your character will perform animations for all item in the list, this can be canceled just like when using consumables. Golden health core is only obtainable through this option, this will stop your health core from draining for a period of time. 
+- Other craftable items: You can combine lower-tier items for better ones, for example: Combine 5 light armor for a full armor. 
 ### Looting from NPCs
 - Approach a dead NPC
 - Press `E` or corresponding button to loot
