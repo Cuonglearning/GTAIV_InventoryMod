@@ -119,29 +119,57 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ## Usage Guide
 
+### Health core/Deadeye core
+
 ### Inventory
-Press `I` to toggle the inventory menu. The menu will pause the game.
+Press `I` to toggle the inventory menu, use numberic buttons to navigate, the menu will pause the game. Inventory menu has nultiple pages for consumables, deadeye items, armor, medkits, valuables, backpacks, and crafting. By default, you have maximum 10 slots for each item, but you can upgrade for more capacity. 
 
-#### Using Items
-1. Open inventory 
-2. Navigate the menu using numberic keys
-3. Select any item
-4. Animation will start. A notification message will appear once you finish using the item. Before the notification is displayed, certain actions such as jumping, shooting, or aiming will cancel the item usage.
-   
-#### Combine items
-Can be accessed through inventory menu. Craftable recipes will be highlighted.
-- About consumables combine: Do a consumables combo to grant big health core, when any combo is chosen, your character will perform animations for all item in the list, this can be canceled just like when using consumables. Golden health core is only obtainable through this option, this will stop your health core from draining for a period of time. 
-- Other craftable items: You can combine lower-tier items for better ones, for example: Combine 5 light armor for a full armor. 
-### Looting from NPCs
-- Approach a dead NPC
-- Press `E` or corresponding button to loot
-- Items are automatically added to your inventory
-
-### Crafting & Combinations
-1. From main menu, select "Combine Items" (7)
-2. Choose the category to craft from
-3. Select a recipe from the list
-4. Item is created if you have enough ingredients
+Consumable Items
+Consumables restore the player’s health-related “health core” and use visible animation models.
+Examples include soda, coffee, chocolate, burgers, pizza, and more.
+Consumables are organized into several pages and have different restore values and prices.
+Eating/drinking also affects health regeneration rates and status messages.
+Deadeye Items and Ability
+Several items like beer, whiskey, wine, and cigarettes belong to the deadeye category.
+These items reduce health core but restore deadeyeCore.
+The Deadeye ability can be toggled with aim + mouse button and slows game time while draining deadeye core.
+Valid weapon checks prevent Deadeye use with unarmed or invalid weapon types.
+Armor and Medkits
+Armor items restore armor values:
+armor_20, armor_50, armor_100
+Medkits restore health:
+used_medkit (partial heal)
+medkit (full heal)
+Medkits and armor can be crafted via the combine system.
+Valuables and Selling
+The script defines many valuables like gold rings, watches, phones, cameras, scrap, and more.
+Valuables have price values and are used in shop selling menus.
+There is also scrap and backpack material tracked as loot items.
+Backpacks
+Backpacks are actual inventory upgrades with item keys like small_backpack, normal_backpack, big_backpack, and magic_backpack.
+Backpack materials can be collected and used to craft better backpacks.
+Equipping a backpack increases capacity and is persistent across saves.
+Crafting / Combining
+Crafting recipes are stored in combineDatabase.
+Food crafting combines consumables into more powerful meals like:
+energy_pack, snack_duo, light_bite, hearty_meal, comfort_soup, etc.
+Some crafted meals grant a temporary Gold Core effect, which changes health status and slows core drain.
+Crafting also supports item upgrades:
+combine partial armors into full armor
+combine used medkits into full medkits
+craft backpack items from backpack materials
+Looting and World Interaction
+The script scans nearby lootable objects and NPCs.
+It shows a prompt to loot or rob when eligible.
+Looted objects and NPCs can yield items, valuables, scrap, or backpack material.
+There is a wanted/heat mechanic: crime witnessed may trigger wanted level later.
+HUD and Status
+The script draws:
+health core bar
+deadeye core bar
+status text such as “Well Fed”, “Hungry”, “Starving”
+current backpack name
+It shows temporary messages, loot prompts, and item hash debug info.
 
 ---
 
