@@ -139,9 +139,10 @@ Liquors/cigarettes is similar to consumables, items in this category restore you
 
 #### Armor 
 Armor restore your armor amount, there are 3 type of armor: Full armor (100 armor), heavy armor (50 armor), light armor (20 armor). Armor has long use time and can be canceled
-Medkits restore health:
-used_medkit (partial heal)
-medkit (full heal)
+
+#### Medkit 
+Medkits restore your HP, there are 2 type of medkit: used medkit (50 HP), Medkit (100 HP). Medkit has short use time and can be canceled
+
 Medkits and armor can be crafted via the combine system.
 Valuables and Selling
 The script defines many valuables like gold rings, watches, phones, cameras, scrap, and more.
