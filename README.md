@@ -137,9 +137,8 @@ Consumables are foods/drinks that restore the player’s health core after used.
 #### Liquors/cigarettes
 Liquors/cigarettes is similar to consumables, items in this category restore your deadeye core but reduce player's health core. 
 
-#### Armor and Medkits
-Armor items restore armor values:
-armor_20, armor_50, armor_100
+#### Armor 
+Armor restore your armor amount, there are 3 type of armor: Full armor (100 armor), heavy armor (50 armor), light armor (20 armor). Armor has long use time and can be canceled
 Medkits restore health:
 used_medkit (partial heal)
 medkit (full heal)
