@@ -122,24 +122,22 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 ### Health core/Deadeye core
 Health core and Deadeye core are two new player stats added by this mod
 
-Health core determines how much health is restored every 3 seconds depending on the stat’s status. It has 5 status: Well fed (10HP), good (8HP), fair (5HP), hungry (3HP), starving (0HP) and 1 special status: golden health core prevent health core's draining for a period of time. This stat decreases over time.
+Health core determines how much health is restored every 3 seconds depending on the stat’s status, this stat decreases over time.. It has 5 status: Well fed (10HP), good (8HP), fair (5HP), hungry (3HP), starving (0HP) and 1 special status: golden health core prevent health core's draining. 
+
 Deadeye core allows the player to use a special ability that slows down the game, making it easier to aim and shoot. This stat decreases over time while the ability is being used
 
 Death penalty: Upon player's death, both stat decreases 50
+
 ### Inventory
 Press `I` to toggle the inventory menu, use numberic buttons to navigate, the menu will pause the game. Inventory menu has nultiple pages for consumables, deadeye items, armor, medkits, valuables, backpacks, and crafting. By default, you have maximum 10 slots for each item, but you can upgrade for more capacity. 
 
-Consumable Items
-Consumables restore the player’s health-related “health core” and use visible animation models.
-Examples include soda, coffee, chocolate, burgers, pizza, and more.
-Consumables are organized into several pages and have different restore values and prices.
-Eating/drinking also affects health regeneration rates and status messages.
-Deadeye Items and Ability
-Several items like beer, whiskey, wine, and cigarettes belong to the deadeye category.
-These items reduce health core but restore deadeyeCore.
-The Deadeye ability can be toggled with aim + mouse button and slows game time while draining deadeye core.
-Valid weapon checks prevent Deadeye use with unarmed or invalid weapon types.
-Armor and Medkits
+#### Consumables
+Consumables are foods/drinks that restore the player’s health core after used. Consumables are organized into several pages and have different restore values and prices. Several actions will cancel item's effect like aiming, shooting, jumping...
+
+#### Liquors/cigarettes
+Liquors/cigarettes is similar to consumables, items in this category restore your deadeye core but reduce player's health core. 
+
+#### Armor and Medkits
 Armor items restore armor values:
 armor_20, armor_50, armor_100
 Medkits restore health:
