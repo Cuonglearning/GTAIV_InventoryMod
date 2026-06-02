@@ -143,15 +143,12 @@ Armor restore your armor amount, there are 3 type of armor: Full armor (100 armo
 #### Medkit 
 Medkits restore your HP, there are 2 type of medkit: used medkit (50 HP), Medkit (100 HP). Medkit has short use time and can be canceled
 
-Medkits and armor can be crafted via the combine system.
-Valuables and Selling
-The script defines many valuables like gold rings, watches, phones, cameras, scrap, and more.
-Valuables have price values and are used in shop selling menus.
-There is also scrap and backpack material tracked as loot items.
-Backpacks
-Backpacks are actual inventory upgrades with item keys like small_backpack, normal_backpack, big_backpack, and magic_backpack.
-Backpack materials can be collected and used to craft better backpacks.
-Equipping a backpack increases capacity and is persistent across saves.
+#### Valuables 
+Valuables are added by this mod, you can sell valuables for money in shop menu. You can view all valuable you currently have in valuables option of inventory menu
+
+#### Backpacks
+Backpack determine maximum number for each item you can carry at once. You can buy backpack from shop menu or craft from backpack meterial. You can check your current backpack and capacity in backpack option from inventory menu
+
 Crafting / Combining
 Crafting recipes are stored in combineDatabase.
 Food crafting combines consumables into more powerful meals like:
