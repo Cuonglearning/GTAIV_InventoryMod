@@ -128,6 +128,9 @@ Deadeye core allows the player to use a special ability that slows down the game
 
 Death penalty: Upon player's death, both stat decreases 50
 
+#### Looting
+
+
 ### Inventory
 Press `I` to toggle the inventory menu, use numberic buttons to navigate, the menu will pause the game. Inventory menu has nultiple pages for consumables, deadeye items, armor, medkits, valuables, backpacks, and crafting. By default, you have maximum 10 slots for each item, but you can upgrade for more capacity. 
 
@@ -149,15 +152,13 @@ Valuables are added by this mod, you can sell valuables for money in shop menu. 
 #### Backpacks
 Backpack determine maximum number for each item you can carry at once. You can buy backpack from shop menu or craft from backpack meterial. You can check your current backpack and capacity in backpack option from inventory menu
 
-Crafting / Combining
-Crafting recipes are stored in combineDatabase.
-Food crafting combines consumables into more powerful meals like:
-energy_pack, snack_duo, light_bite, hearty_meal, comfort_soup, etc.
-Some crafted meals grant a temporary Gold Core effect, which changes health status and slows core drain.
-Crafting also supports item upgrades:
-combine partial armors into full armor
-combine used medkits into full medkits
-craft backpack items from backpack materials
+#### Combine
+You can craft/combine items from this menu
+- For consumables: You can use consumables combo to get bonus health core and some combos grant you golden health core. When using a consumable combo, your character will do animation for each item, combo use can be canceled
+- For armor and medkit: You can craft lower tier items for higher tier items, for example you can craft 5 light armor for a full armor
+- For backpack: You can craft backpack to upgrade inventory capacity using backpack material. You get backpack material from looting npc(small chance) or looting some world items(fashion bags from npc)
+
+
 Looting and World Interaction
 The script scans nearby lootable objects and NPCs.
 It shows a prompt to loot or rob when eligible.
