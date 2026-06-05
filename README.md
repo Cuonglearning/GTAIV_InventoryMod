@@ -119,20 +119,26 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ## Usage Guide
 
-### Health core/Deadeye core
-Health core and Deadeye core are two new player stats added by this mod
-
-Health core determines how much health is restored every 3 seconds depending on the stat’s status, this stat decreases over time.. It has 5 status: Well fed (10HP), good (8HP), fair (5HP), hungry (3HP), starving (0HP) and 1 special status: golden health core prevent health core's draining. 
-
-Deadeye core allows the player to use a special ability that slows down the game, making it easier to aim and shoot. This stat decreases over time while the ability is being used
-
-Death penalty: Upon player's death, both stat decreases 50
-
-#### Looting
-
-
 ### Inventory
-Press `I` to toggle the inventory menu, use numberic buttons to navigate, the menu will pause the game. Inventory menu has nultiple pages for consumables, deadeye items, armor, medkits, valuables, backpacks, and crafting. By default, you have maximum 10 slots for each item, but you can upgrade for more capacity. 
+The mod adds a full inventory system with multiple item categories:
+- Consumables
+- Deadeye Items
+- Armor
+- Medkits
+- Valuables
+- Backpack Materials
+- Backpacks
+- Crafted Items
+Inventory data is automatically saved and loaded
+
+### Health Core 
+A new stat called Health Core is added. Health Core ranges from 0 to 100, Health Core affects player's health regeneration per 6 seconds. Health core has 6 status levels:
+- Golden: Special temporary boosted state, prevents normal Health Core decay and Health Core reduce from using liquors/cigarettes. Golden Health Core status worn off after 10 minutes since the last time you get the effect. This status can only achieved with Consumables combo
+- Well Fed: Health Core > 80, regen 10 HP
+- Good: Health Core > 60, regen 8 HP
+- Satisfied: Health Core > 40, regen 5 HP
+- Hungry: Health Core > 20, regen 3 HP
+- Starving: Health Core ≤ 20, no health regen
 
 #### Consumables
 Consumables are foods/drinks that restore the player’s health core after used. Consumables are organized into several pages and have different restore values and prices. Several actions will cancel item's effect like aiming, shooting, jumping...
