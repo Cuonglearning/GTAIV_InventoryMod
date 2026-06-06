@@ -140,6 +140,9 @@ A new stat called Health Core is added. Health Core ranges from 0 to 100, Health
 - Hungry: Health Core > 20, regen 3 HP
 - Starving: Health Core ≤ 20, no health regen
 
+### Focus Core 
+Deadeye allows temporary slow motion combat help you to take aim. When activated, game goes into slow motion mode, Focus Core is consumed over time and will be disabled when empty. Focus can only be activated while using valid firearms.
+
 #### Consumables
 Consumables are foods/drinks that restore the player’s health core after used. Consumables are organized into several pages and have different restore values and prices. Several actions will cancel item's effect like aiming, shooting, jumping...
 
