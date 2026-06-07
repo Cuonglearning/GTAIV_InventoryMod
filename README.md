@@ -119,6 +119,12 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
 
 ## Usage Guide
 
+### Loot system
+There are 3 ways players can loot item:
+- From dead/incap npc: you can approach dead/incap npc and press loot button to start looting, you can only loot each npc once and different NPC types drop different loot. Ex: cops are more likely to drop armors, civilians drop more consumables
+- From pickable item: when you're holding a pickable item, you can press loot button, if the item is valid and there is still space left in inventory, your character will put it in inventory
+- From world object: to start, press loot world item button, first your character will search for lootable item nearby, after that you can press loot world item button again to start looting, there will be a prompt to let you know which item you will loot. If you go out of loot zone, your character will stop looting and you have to search again (I have to make this complicated for optimization)
+
 ### Inventory
 The mod adds a full inventory system with multiple item categories:
 - Consumables
@@ -144,16 +150,16 @@ A new stat called Health Core is added. Health Core ranges from 0 to 100, Health
 Deadeye allows temporary slow motion combat help you to take aim. When activated, game goes into slow motion mode, Focus Core is consumed over time and will be disabled when empty. Focus can only be activated while using valid firearms.
 
 #### Consumables
-Consumables are foods/drinks that restore the player’s health core after used. Consumables are organized into several pages and have different restore values and prices. Several actions will cancel item's effect like aiming, shooting, jumping...
+Consumables are foods/drinks that restore the player’s health core after used. Consumables are organized into several pages and have different restore values and prices. 
 
 #### Liquors/cigarettes
 Liquors/cigarettes is similar to consumables, items in this category restore your deadeye core but reduce player's health core. 
 
 #### Armor 
-Armor restore your armor amount, there are 3 type of armor: Full armor (100 armor), heavy armor (50 armor), light armor (20 armor). Armor has long use time and can be canceled
+Armor restore your armor amount, there are 3 type of armor: Full armor (100 armor), heavy armor (50 armor), light armor (20 armor). Armor has long use time 
 
 #### Medkit 
-Medkits restore your HP, there are 2 type of medkit: used medkit (50 HP), Medkit (100 HP). Medkit has short use time and can be canceled
+Medkits restore your HP, there are 2 type of medkit: used medkit (50 HP), Medkit (100 HP). Medkit has short use time so it can be used in dangerous situation
 
 #### Valuables 
 Valuables are added by this mod, you can sell valuables for money in shop menu. You can view all valuable you currently have in valuables option of inventory menu
