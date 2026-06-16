@@ -149,44 +149,33 @@ A new stat called Health Core is added. Health Core ranges from 0 to 100, Health
 ### Focus Core 
 Deadeye allows temporary slow motion combat help you to take aim. When activated, game goes into slow motion mode, Focus Core is consumed over time and will be disabled when empty. Focus can only be activated while using valid firearms.
 
-#### Consumables
+### Consumables
 Consumables are foods/drinks that restore the player’s health core after used. Consumables are organized into several pages and have different restore values and prices. 
 
-#### Liquors/cigarettes
+### Liquors/cigarettes
 Liquors/cigarettes is similar to consumables, items in this category restore your deadeye core but reduce player's health core. 
 
-#### Armor 
+### Armor 
 Armor restore your armor amount, there are 3 type of armor: Full armor (100 armor), heavy armor (50 armor), light armor (20 armor). Armor has long use time 
 
-#### Medkit 
+### Medkit 
 Medkits restore your HP, there are 2 type of medkit: used medkit (50 HP), Medkit (100 HP). Medkit has short use time so it can be used in dangerous situation
 
-#### Valuables 
+### Valuables 
 Valuables are added by this mod, you can sell valuables for money in shop menu. You can view all valuable you currently have in valuables option of inventory menu
 
-#### Backpacks
+### Backpacks
 Backpack determine maximum number for each item you can carry at once. You can buy backpack from shop menu or craft from backpack meterial. You can check your current backpack and capacity in backpack option from inventory menu
 
-#### Combine
+### Combine
 You can craft/combine items from this menu
 - For consumables: You can use consumables combo to get bonus health core and some combos grant you golden health core. When using a consumable combo, your character will do animation for each item, combo use can be canceled
 - For armor and medkit: You can craft lower tier items for higher tier items, for example you can craft 5 light armor for a full armor
 - For backpack: You can craft backpack to upgrade inventory capacity using backpack material. You get backpack material from looting npc(small chance) or looting some world items(fashion bags from npc)
 
-
-Looting and World Interaction
-The script scans nearby lootable objects and NPCs.
-It shows a prompt to loot or rob when eligible.
-Looted objects and NPCs can yield items, valuables, scrap, or backpack material.
-There is a wanted/heat mechanic: crime witnessed may trigger wanted level later.
-HUD and Status
-The script draws:
-health core bar
-deadeye core bar
-status text such as “Well Fed”, “Hungry”, “Starving”
-current backpack name
-It shows temporary messages, loot prompts, and item hash debug info.
-
+### Shop Menu
+Shop menu has multiple pages allow you to buy any usable item, backpack and sell valuables/scraps
+- Buying Items: When browsing the buy pages, you can navigate through the menu and add what you need to your cart, you can toggle add or remove mode using backspace button (default). The cart shows all necessary information like price, your currently have amount of each item the total value of the order to help you decide before confirming. 
 ---
 
 ## 📦 File Structure
