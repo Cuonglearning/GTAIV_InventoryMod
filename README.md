@@ -175,7 +175,11 @@ You can craft/combine items from this menu
 
 ### Shop Menu
 Shop menu has multiple pages allow you to buy any usable item, backpack and sell valuables/scraps
-- Buying Items: When browsing the buy pages, you can navigate through the menu and add what you need to your cart, you can toggle add or remove mode using backspace button (default). The cart shows all necessary information like price, your currently have amount of each item the total value of the order to help you decide before confirming. 
+- Buying Items: When browsing the buy pages, you can navigate through the menu and add what you need to your cart, you can toggle add or remove mode using backspace button (default). The cart shows all necessary information like price, your currently have amount of each item the total value of the order to help you decide before confirming.
+- Selling Items: Selling is split into two different styles:
+   + Sell Valuables: Sell jewelry, gold, electronics, watches, and other valuables for cash, direct selling gives full payout while increases Heat (chance of getting wanted 4 stars, Heat reset after 24h ingame since the last time Heat increase). Safe selling is available, but it reduces the payout by 30%
+   + Sell Scraps: Sell low-value scrap materials separately, making extra money from junk items.
+
 ---
 
 ## 📦 File Structure
