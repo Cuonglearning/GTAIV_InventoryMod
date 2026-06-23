@@ -182,20 +182,11 @@ Shop menu has multiple pages allow you to buy any usable item, backpack and sell
 
 ---
 
-## 📦 File Structure
-
-```
-food/
-├── source/
-│   └── FoodScript.cs          # Main mod source code
-├── scripts/
-│   ├── FoodScriptData.ini
-│   ├── FoodScriptDataGta4.ini
-│   ├── FoodScriptDataTLAD.ini
-│   └── FoodScriptDataTbogt.ini
-└── README.md                   # This file
-```
-
+## Important notes
+-  Looting Can Attract Police Attention: You get 1 star wanted level when looting npc near a cop
+-  Inventory Limits Matter: Even if you find loot, items cannot be collected if inventory is full
+-  Death Penalties: Death reduces 50 health core and focus core, also remove golden health core effect
+-  Episode-Specific Save Files: Inventory data is stored separately for gta IV, TLAD and TBOGT
 ---
 
 ## 🐛 Troubleshooting
