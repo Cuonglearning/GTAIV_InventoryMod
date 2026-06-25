@@ -201,6 +201,7 @@ Shop menu has multiple pages allow you to buy any usable item, backpack and sell
 ## Bugs & problems
 Major problems:
 - Sometimes when you try to loot pickable item the game might crash, this only happens to object on the ground but ped's object doesn't cause this issue, it's unclear why this happens but it could be because the looted object is not supposed to be deleted. Best fix for now is to avoid looting object causes game's crash
+  
 Minor bugs:
 - Idle animations might interrupt item use animation, but this will not cancel item use
 - The mod was developed in 800x600 resolution so the menu may not in intended position (but still visible because the menu's location is calculated to screen resolution)
