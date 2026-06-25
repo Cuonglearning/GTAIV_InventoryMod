@@ -183,49 +183,28 @@ Shop menu has multiple pages allow you to buy any usable item, backpack and sell
 ---
 
 ## Important notes
+-  All item use can be canceled by several actions like jump, shoot, ...
 -  Looting Can Attract Police Attention: You get 1 star wanted level when looting npc near a cop
 -  Inventory Limits Matter: Even if you find loot, items cannot be collected if inventory is full
 -  Death Penalties: Death reduces 50 health core and focus core, also remove golden health core effect
 -  Episode-Specific Save Files: Inventory data is stored separately for gta IV, TLAD and TBOGT
+  
 ---
 
-## 🐛 Troubleshooting
-
-**Error: Inventory won't open**
-- Check that `I` key is not conflicting with other binds
-- Ensure game is not in a cut-scene
-
-**Error: Animation won't play**
-- Check character is not in a vehicle
-- Ensure animation set is loaded correctly
-
-**Error: Items won't loot**
-- NPC may have already been looted
-- Check inventory is not full
+## Recommend mod
+- Various Pedestrian Actions: This mod gives ped variety of food and drink that can be looted like soda, wine, burger... meanwhile in original game ped can only drink coffee or smoke. For that this mod goes well with my mod (this mod is not my work)
+- Download link: https://www.nexusmods.com/gta4/mods/843
 
 ---
 
-## 📝 Author & License
 
-**Developed by:** [Author Name]  
-**License:** [Specify your license - MIT, GPL, etc.]
-
----
-
-## 🤝 Contributing
-
-All contributions, bug reports, and feature suggestions are welcome!
-Please create an issue or pull request on GitHub.
+## Bugs & problems
+Major problems:
+- Sometimes when you try to loot pickable item the game might crash, this only happens to object on the ground but ped's object doesn't cause this issue, it's unclear why this happens but it could be because the looted object is not supposed to be deleted. Best fix for now is to avoid looting object causes game's crash
+Minor bugs:
+- Idle animations might interrupt item use animation, but this will not cancel item use
+- The mod was developed in 800x600 resolution so the menu may not in intended position (but still visible because the menu's location is calculated to screen resolution)
 
 ---
 
-## ⚠️ Important Notes
-
-- Mod only works with supported game versions
-- Backup your game data before installing the mod
-- May not be compatible with some other mods - check for conflicts
-- Use the mod at your own risk
-
----
-
-**Enjoy the mod! 🎮**
+**Enjoy the mod!**
