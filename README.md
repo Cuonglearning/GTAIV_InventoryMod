@@ -184,6 +184,7 @@ Shop menu has multiple pages allow you to buy any usable item, backpack and sell
 
 ## Important notes
 -  All item use can be canceled by several actions like jump, shoot, ...
+-  Game is paused when inventory is opened so that you can easily choose which item to use, but shop item is not
 -  Looting Can Attract Police Attention: You get 1 star wanted level when looting npc near a cop
 -  Inventory Limits Matter: Even if you find loot, items cannot be collected if inventory is full
 -  Death Penalties: Death reduces 50 health core and focus core, also remove golden health core effect
@@ -208,4 +209,10 @@ Minor bugs:
 
 ---
 
+## Planned features
+- Robbing npc with witness system
+- Customize control
+- Add phone use animation for shopping
+
+---
 **Enjoy the mod!**
