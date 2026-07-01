@@ -22,7 +22,7 @@ With an intuitive menu interface, players can easily manage resources, upgrade b
    - Download + installation link (this is not my work): https://hazardx.com/files/gta4_net_scripthook-83
 
 2. **Download and extract GTAIV_InventoryMod.rar**
-   - Download Inventory.rar from release
+   - Download **Inventory.rar** from release
    - Extract the file using winrar
 
 3. **Put extracted folder into your GTA IV directory**
