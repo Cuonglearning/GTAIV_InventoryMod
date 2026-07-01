@@ -6,6 +6,8 @@
 
 With an intuitive menu interface, players can easily manage resources, upgrade backpacks, sell valuable items, and improve their character.
 
+**Demo link:** https://youtu.be/EnRaqPzvVm4
+
 ---
 
 ## Installation Guide
